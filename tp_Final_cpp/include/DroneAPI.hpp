@@ -6,8 +6,7 @@ using namespace std;
 
 /*
  Interface que simula la API externa del dron.
- El dron REAL sería controlado por esta API.
- Aquí solo definimos la "firma" de sus funciones.
+ El dron REAL seria controlado por esta API.
 */
 class DroneAPI {
 public:

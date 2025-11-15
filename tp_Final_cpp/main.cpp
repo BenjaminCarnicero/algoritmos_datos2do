@@ -7,13 +7,6 @@
 using namespace std;
 
 
-/*
-Como en el parcial no tenemos acceso a la API real del dron físico, 
-la simulamos creando una clase llamada DroneAPI que representa las funciones que tendría un SDK externo real.
-Nuestro dron llama a esa API y el controlador gestiona las acciones. 
-Gracias a este diseño puedo reemplazar la API real en el futuro sin tocar la lógica del sistema.
-*/
-
 int main() {
 
     RealDroneAPI api;
